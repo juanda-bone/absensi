@@ -9,14 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "flowbite": "^2.4.1",
+    "flowbite-react": "^0.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+    "next-pwa": "^5.6.0",
+    "nookies": "^2.5.2",
+    "rate-limiter-flexible": "^5.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }

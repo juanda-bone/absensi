@@ -1,0 +1,22 @@
+meta {
+  name: update Absen
+  type: http
+  seq: 11
+}
+
+put {
+  url: http://localhost:3000/api/student/absen/findUpdateByIdAbsen
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "idStudent": "6492b5b9d84e5e8c2a77e78e",
+    "idKehadiran": "668dc5ebb1c023e93b0a038b",
+    "course": "6668000182b659ac67e99ec4",
+    "absen": "Sakit",
+    "timestamp": "1720376610",
+    "message": null
+  }
+}

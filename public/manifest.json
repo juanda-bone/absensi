@@ -1,0 +1,26 @@
+{
+  "theme_color": "#1e690c",
+  "background_color": "#83b597",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icons/icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icons/icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "Absensi 23MA1",
+  "short_name": "absenimanajemen",
+  "start_url": "/",
+  "scope": "/"
+}
